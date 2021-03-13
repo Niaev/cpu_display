@@ -34,9 +34,13 @@ try:
         temp = temp.replace('°','o')
         usag = '{:.2f}'.format(float(usag))
 
+        # adding spaces to the end to fit in 16 char line
+        temp = '%-16s' % temp
+        usag = '%-16s' % (usag + '%')
+
         # display values
         display.lcd_display_string(f'Temp.: {temp}',1)
-        display.lcd_display_string(f'Usage: {usag}%',2)
+        display.lcd_display_string(f'Usage: {usag}',2)
     
         sleep(2) # wait
 except KeyboardInterrupt as e:
