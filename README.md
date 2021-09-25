@@ -1,3 +1,5 @@
 # **cpu_display**
 
-![logo](logo.png)
+<p align="center">
+    <img src="logo.png">
+</p>
