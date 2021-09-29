@@ -34,7 +34,7 @@ And enable I2C interface through `raspi-config`, following those steps:
 If you want `cpu_display` to work at startup or login, you will need to run `setup.sh` script. If you don't want to, you can just execute the main script alone:
 
 `
-./cpu_display.sh
+./cpu_display.py
 `
 
 Requirements satisfied, you can now setup `cpu_display`, typing the following line in your terminal:
