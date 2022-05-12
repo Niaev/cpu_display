@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Displays CPU info to a Liquid Crystal Display"""
 
 import os
 import sys
