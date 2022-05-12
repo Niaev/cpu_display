@@ -1,3 +1,7 @@
 .tmp
 ./.tmp
 ./.tmp/*
+drivers/__pycache__
+drivers/__pycache__/*
+__pycache__
+__pycache__/*
